@@ -1,0 +1,46 @@
+/*
+SE REALIZA LA IMPORTACION DE UN ARCHIVO EXTERNO
+DE ESTILOS LLAMADO estilos2
+*/
+@import url('estilos2.css');
+body {
+  background-color: lightblue;
+  font-family: sylfaen;
+  }
+
+h1 {
+  color: white;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#fondo{
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: blue;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#reloj{
+  position: absolute;
+  bottom: 150px;
+  left: 20px;
+}
+#clima{
+  position: absolute;
+  bottom: 20px;
+  left: -550px;
+}

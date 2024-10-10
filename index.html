@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reloj.css">
+  <link rel="stylesheet" href="clima.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="cabecera.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="navegacion.js"></script>
+  </head>
+
+<body>
+<header class="header">
+  <div class="container logo-nav-container">
+    <a href="#" class="logo">Systemas</a>
+    <nav class="navegador">
+      <ul class="barra">
+        <li>
+        <li><a href="#main" class="active"><i class="fa fa-home"></i>INICIO</a></li>
+        <li><a href="#tab1" class="active"><i class="fa fa-user"></i>SOBRE MI</a></li>
+        <li><a href="#tab2" class="active"><i class="fa fa-list"></i>EXPERIENCIA</a></li>
+        <li><a href="#tab3" class="active"><i class="fa fa-briefcase"></i>SKILLS</a></li>
+        <li><a href="#tab4" class="active"><i class="fa fa-comments"></i>OTROS</a></li>
+        <li><a href="#tab5" class="active"><i class="fa fa-comments"></i>CONTACTO</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="main" id="main">
+<div class="container">
+  <h1>Portafolio de evidencias</h1>
+  <h1>Francisco Perez</h1>
+  <h2>Ing. Sistemas Computacionales</h2>
+  <div class="container" id="fondo">
+      <img src="nature.jpg" width="100%" >
+
+      <div class="text-block">
+        <h4>Acerca de.</h4>
+        <p>Start</p>
+      </div>
+    </div>
+
+  <div id="reloj">
+  <script src="reloj.js">
+  </script>
+  </div>
+
+  <div id="clima">
+    <input id="get-city" type="text" placeholder="search city here">
+    <h3 class="city-name"></h3>
+    <p class="date-info"><span class="day"></span><span class="date"></span></p>
+    <h2 class="weather-deg"></h2>
+  <script src="clima.js" defer></script>
+  </div>
+</div>
+</main>
+
+<div class="sections">
+  <div id="tab1">
+    <br>
+      <lenguaje>
+        <nombre><img src="me.jpg" width="70%">
+          <br>
+          Luis Francisco Perez de Luna
+        </nombre>
+        <nivel>Ingeniero en Sistemas
+          Computacionales
+          <br>
+          Chef
+          <br>
+          Estudiante de Química
+          <br>
+          poligrota
+        </nivel>
+        <descripcion>
+          Con un cosntante busqueda de resolver
+          y aprender constantemente. Me he desarrollado en diversos campos y
+          areas de la ingenieria matematicas, ciencias y artes.
+          Buscando soluciones a problemas planteados y generar conocimiento
+          para poder dar soluciones a diversos paradigmas.
+        </descripcion>
+      </lenguaje>
+    <br>
+  </div>
+  <div id="tab2">
+      <br>
+    <biblioteca>
+        <lenguaje>
+          <nombre>XML
+          <img src="xml.jpg" width="100%" >
+          </nombre>
+          <nivel>Intermedio</nivel>
+          <descripcion>
+              Realice un periodo de
+              capacitacion autodidacta
+              de duracion de 1 año
+              sobre las base de XML
+              y sus aplicaciones.
+          </descripcion>
+        </lenguaje>
+      <br>
+        <lenguaje>
+          <nombre>C#
+            <img src="c.jpg" width="100%" >
+          </nombre>
+          <nivel>Basico</nivel>
+          <descripcion>
+            Proyectos en la programacio de vistas
+            de sistemas y flujo de datos.
+            </descripcion>
+        </lenguaje>
+        <br>
+        <lenguaje>
+          <nombre>HTML||CSS||JAVASCRIPT
+            <img src="web.png" width="100%" >
+          </nombre>
+          <nivel>Intermedio</nivel>
+          <descripcion>
+              Creacion de paginas web
+              con recursos dinamicos de ccss, javascript y
+              jquery.
+          </descripcion>
+        </lenguaje>
+        <br>
+        <lenguaje>
+          <nombre>FORTRAN
+            <img src="fortran.jpg" width="100%" >
+          </nombre>
+          <nivel>Intermedio</nivel>
+          <descripcion>
+              Programacion de sistemas matematicos, modelado de funciones
+              obtencion de datos experimentales
+              visualizacion de datos con gnuplot
+              y manejo de entradas del sistemas
+              /bash
+          </descripcion>
+        </lenguaje>
+        <br>
+          <lenguaje>
+            <nombre>PLSQL
+              <img src="plsql.png" width="100%" >
+            </nombre>
+            <nivel>Intermedio</nivel>
+            <descripcion>
+              Flujo y dinamica de datos, procesos de actualizacion
+              eliminacion de campos, busquedas y filtrado de datos
+              limpieza de datos. Exportacion y tratamiento de datos
+              a diversas fuentes(extensiones).
+            </descripcion>
+          </lenguaje>
+          <br>
+          <lenguaje>
+            <nombre>RSTUDIO||SAS||PYTHON||MINITAB
+              <img src="stat.webp" width="100%" >
+            </nombre>
+            <nivel>Intermedio</nivel>
+            <descripcion>
+              Manejo de diverso lenguajes de Programacion
+              con especialidad en visualizacion de datos,
+              manejo de pruebas estadisticas
+              Geometyria,concentracion de datos
+              pruebas de hipotesis
+              muestreo de poblaciones
+              matriz de toma de decisiones
+              series de tiempo y finanzas
+            </descripcion>
+          </lenguaje>
+    </biblioteca>
+  </div>
+  <div id="tab3">
+      <br>
+          <lenguaje>
+            <nombre>Buen manejo del estres
+              Aprendizaje continuo
+              capacidad analitica
+              Toma de desiciones
+              Manejo de grances cantidades de informacion
+              ingenieria inversa
+              creatividad
+              implementacion de soluciones
+              buena compresion lectora
+              comunicacion escrita
+
+            <img src="xml.jpg" width="100%" >
+            </nombre>
+            <nivel>Intermedio</nivel>
+            <descripcion>
+                Realice un periodo de
+                capacitacion autodidacta
+                de duracion de 1 año
+                sobre las base de XML
+                y sus aplicaciones.
+            </descripcion>
+          </lenguaje>
+        <br>
+
+  </div>
+  <div id="tab4">
+    <otros>
+      otras cualidades:
+      Cocinar
+      matematicas
+      idiomas
+      escritura
+      artes
+      ciencias
+      botanica
+      floricultura
+
+    </otros>
+  </div>
+  <div id="tab5">
+    <h1>Francisco Pérez</h1>
+    <h3>Ing. Sistemas</h3>
+    <h3>CONTACTO PERSONAL:</h3>
+<ul>
+  <a href="#"><i class='bx bxl-facebook'></i></a>
+  <a href="#"><i class='bx bxl-twitter'></i></a>
+  <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+</ul>
+
+    <p>Hola soy yo un ingeniero en desarrollo y capacitacion</p>
+
+     <a href="#" class="btn">Download CV</a>
+     <a href="#" class="btn contact">Contact me</a>
+</div>
+
+  <div id="tab6">
+
+  </div>
+</div>
+
+</body>
+
+</html>

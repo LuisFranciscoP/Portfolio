@@ -1,0 +1,37 @@
+.header{
+  background: #7548;
+  color: white;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navegador ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navegador ul li{
+display: inline-block;
+}
+.navegador ul li a{
+display: block;
+padding: 0.5rem 1rem;
+transition: all 0.4s linear;
+}
+.navegador ul li a:hover{
+  background: #1587;
+}
+.main{
+  padding: 0.5rem;
+}
